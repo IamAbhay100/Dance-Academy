@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin: 15px 0px;
+    font-family: 'Supermercado One', cursive;
+    font-size: 2.5rem;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myInput{
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    border: 4px solid black;
+    border-radius: 15px;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+.btn:hover{
+    border: 4px solid green;
+    background-color: green;
+    color: white;
+}
+.myInput:hover{
+    border: 4px solid #d3261a;
+}
+.btn{
+    padding:5px 10px;
+    margin: 10px;
+    cursor: pointer;
+    background: #d3261a;
+    border: 4px solid #d3261a;
+    border-radius: 15px;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    outline: none;
+}
+.container{
+    height: 56.5vh;
+    margin: 125px 0px;
+}
